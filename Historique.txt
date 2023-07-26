@@ -1,0 +1,58 @@
+    1  git -v
+    2  ls
+    3  hostname
+    4  whoami
+    5  pwd
+    6  cd ..
+    7  ls
+    8  cd _
+    9  cd ~/desktop/
+   10  mkdir Toto
+   11  ls
+   12  ls -l
+   13  cd Toto/
+   14  touch Bibu.txt
+   15  ls -l
+   16  touch Bibouche.txt
+   17  mkdir Data
+   18  cd Data/
+   19  touch spasiba.txt
+   20  cd ..
+   21  ls -la
+   22  git init
+   23  echo "Gunaydin" > Bibouche.txt
+   24  git add .
+   25  git status
+   26  git commit -m "My first commit"
+   27  cat Bibouche.txt
+   28  echo "Das Vindanya" > Bibouche.txt
+   29  "Gule Gule" >> Bibouche.txt
+   30  echo "Gule Gule" >> Bibouche.txt
+   31  git add .
+   32  git commit -m "Second commit"
+   33  echo "Hello" > Bibu.txt
+   34  git add .
+   35  git commit -m "Third commit"
+   36  git branch Test
+   37  git checkout Test
+   38  git add .
+   39  git commit -m "Branch test"
+   40  git rm Bibouche.txt
+   41  git rm -rf Data/
+   42  git add *
+   43  git commit -m "Suppression de fichiers"
+   44  git checkout master
+   45  ls
+   46  touch ./Data/{oh,ah}.txt
+   47  ls ./Data/
+   48  git add *
+   49  git commit -m "Ajout de fichiers"
+   50  git checkout Test
+   51  git branch Re7
+   52  git checkout Re7
+   53  git add .
+   54  git commit -m "Creation branche Re7"
+   55  git touch Historique.txt
+   56  touch Historique.txt
+   57  history
+   58  history > Historique.txt
